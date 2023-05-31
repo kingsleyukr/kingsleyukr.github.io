@@ -14,104 +14,172 @@
     />
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="KingsleyMGB" />
-    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Porti</title>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+ <body>
     <main>
-      <section class="left">
-        <ul>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/kingsley-chijioke-m-a1a75324b/"
-              ><i class="fa-brands fa-linkedin fa-2xl"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://github.com/kingsleyukr"
-              ><i class="fa-brands fa-github fa-2xl"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://codepen.io/kingsley-ch"
-              ><i class="fa-brands fa-codepen fa-2xl"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.instagram.com/kingsleymgb/"
-              ><i class="fa-brands fa-instagram fa-2xl"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.facebook.com/kingsley.chijioke.754570"
-              ><i class="fa-brands fa-facebook fa-2xl"></i
-            ></a>
-          </li>
-        </ul>
-      </section>
-      <section class="right">
-        <div class="img">
-        <img src="KingsleyMgbS.jpg" />
-
+      <section class="one">
+        <div class="section1_1">
+          <img class="profile-photo" src="KingPaint.JPG" alt="" />
         </div>
-        <div class="profile-container">
-          <h1>Kingsley Chijioke Mgbachi</h1>
-          <h2>About me</h2>
+        <div class="section1_2">
+          <h1>
+            <span>Kingsley</span>
+            <span>Mgbachi</span>
+            <p>Frontend Developer | IT Support</p>
+          </h1>
+          <nav>
+            <ul class="navbar" id="dropdown-click">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#education">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown-icon"><a href="javascript:void(0);"><i class="fa-solid fa-bars"></i>
+              </a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section class="two" id="about">
+        <div class="section2_1">
+          <img class="some-guy" src="./img/KingsleyMgbS.jpg" alt="" />
+          <div class="food">
+            <img src="./img/mindfulness.jpg" alt="" />
+            <img src="./img/reading.jpg" alt="" />
+            <img src="./img/cycling.jpg" alt="" />
+            <img src="./img/lasagna.jpg" alt="" />
+            <img src="./img/gaming.jpg" alt="" />
+            <img src="./img/football.jpg" alt="" />
+          </div>
+        </div>
+        <div class="section2_2">
+          <h1>About Me</h1>
           <p>
-            Very analytical and proactive individual, with a background in
-            preventive medicine and over five years experience in client
-            relations. A true team player with an “addition” mindset. Always
-            looking to improve and go beyond the limits, currently on a new
-            career path in Information Technology, spanning over three years.
+            Hallo! Kingsley here from Nigeria <span>&#x1F1F3;&#x1F1EC;</span>.
+            I'm quite new to the IT sector. However, over the past few months
+            I've had the opportunity to further my long term passion for IT. In
+            addition, I like good food &#x1F357; as you can see to the right and
+            I like playing games in my "spare" time.
           </p>
-          <h2>Skills</h2>
-          <div class="skills">
-            <button>
-              <a
-                target="_blank"
-                href="https://www.coursera.org/account/accomplishments/certificate/SEMQ3BM8UG7P"
-                >HTML</a
-              >
-            </button>
-            <button>
-              <a
-                target="_blank"
-                href="https://www.coursera.org/account/accomplishments/certificate/9NLDHRQWH2AD"
-                >CSS</a
-              >
-            </button>
-            <button>
-              <a
-                target="_blank"
-                href="https://www.coursera.org/account/accomplishments/certificate/CFEFBGFH5FSB"
-                >GIT</a
-              >
-            </button>
-            <button><a href="#">Javascript</a></button>
-            <button>
-              <a
-                target="_blank"
-                href="https://www.coursera.org/account/accomplishments/certificate/Q5DSTXH9QD29"
-                >React</a
-              >
-            </button>
-            <button>
-              <a
-                target="_blank"
-                href="https://www.coursera.org/account/accomplishments/certificate/REZM9DXS9735"
-                >Cloud</a
-              >
-            </button>
+        </div>
+      </section>
+      <section class="three" id="education">
+        <h1>Education</h1>
+        <div class="section3_1">
+          <h2>Powercoders Bootcamp | ICT Work Integration Program, Bern</h2>
+          <ul>
+            <li>Foundations of HTML, CSS, Javascript</li>
+            <li>
+              Workshops, weekly business and skills training (teamwork,
+              communication)
+            </li>
+          </ul>
+        </div>
+        <div class="section3_2">
+          <h2>
+            Masters Degree in Community & Public Health | University of Benin,
+            Nigeria
+          </h2>
+          <ul>
+            <li>Health promotion and health education</li>
+            <li>Health, Safety and Environment</li>
+          </ul>
+        </div>
+        <div class="section3_3">
+          <h2>
+            Bachelors in Health Education | Delta State University, Nigeria
+          </h2>
+          <ul>
+            <li>Health and Safety Education</li>
+            <li>Environmental Health</li>
+          </ul>
+        </div>
+      </section>
+      <section class="four" id="projects">
+        <div class="section4_1">
+          <h1><span>Projects</span></h1>
+        </div>
+        <div class="section4_2">
+          <img
+            src="https://images.unsplash.com/photo-1615358630075-ba2bbe783521?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGUlMjBpbWFnZSUyMGFmcmljYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1615358630075-ba2bbe783521?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGUlMjBpbWFnZSUyMGFmcmljYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="five" id="skills">
+        <div class="section5_1">
+          <h1>
+            <span>Skills</span>
+          </h1>
+        </div>
+        <div class="section5_2">
+          <img src="./img/HtmL.png" alt="" class="section5" />
+          <img src="./img/CSS.png" alt="" class="section5" />
+          <img src="./img/git.png" alt="" class="section5" />
+          <img src="./img/react.png" alt="" class="section5" />
+          <img src="./img/cloud.png" alt="" class="section5" />
+          <img src="./img/mecm.png" alt="" class="section5" />
+        </div>
+      </section>
+      <section class="six" id="contact">
+        <div class="section6_1">
+          <h1><span>Contact</span></h1>
+          <div class="contact-box">
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/kingsleymgb/"
+                  ><i class="fa-brands fa-linkedin fa-2xl"></i
+                ></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://github.com/kingsleyukr"
+                  ><i class="fa-brands fa-github fa-2xl"></i
+                ></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://codepen.io/kingsley-ch"
+                  ><i class="fa-brands fa-codepen fa-2xl"></i
+                ></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/kingsleymgb/"
+                  ><i class="fa-brands fa-instagram fa-2xl"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/kingsley.chijioke.754570"
+                  ><i class="fa-brands fa-facebook fa-2xl"></i
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
     </main>
-    <script
-      src="https://kit.fontawesome.com/0b20d1a059.js"
-      crossorigin="anonymous"
-    ></script>
+    <footer>
+      kingsleymgb<i class="fa fa-copyright" aria-hidden="true"></i>
+    </footer>
+    <a href="#" class="to-top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <script src="https://kit.fontawesome.com/0b20d1a059.js" crossorigin="anonymous"></script>
   </body>
 </html>
