@@ -259,6 +259,60 @@ footer {
   display: none;
 }
 
+.navbar a {
+  transition: opacity 0.2s;
+}
+
+.navbar a:hover {
+  opacity: 0.5;
+}
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4em 1em;
+  border: 1px solid #4c2e05;
+  border-radius: 0.5em 0;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid #4c2e05;
+  border-radius: 0.5em 0;
+  padding: 2em 3em;
+  max-width: 480px;
+}
+
+.project-card h2 {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+.project-card p {
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  border: 1px solid #4c2e05;
+  border-radius: 0.5em 0;
+  font-weight: 300;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.project-link:hover {
+  background-color: #4c2e05;
+  color: #ddc9b4;
+}
+
 @media only screen and (max-width: 64.063em) {
   ul.navbar li {
     display: none;
@@ -279,11 +333,11 @@ footer {
     position: relative;
   }
 
-  ul.navbar.response li {
+  ul.navbar.responsive li {
     display: inline;
   }
 
-  ul.navbar.response li a {
+  ul.navbar.responsive li a {
     display: block;
     text-align: left;
   }
